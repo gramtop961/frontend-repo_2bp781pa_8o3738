@@ -2,6 +2,7 @@ import React from 'react';
 import Hero from './components/Hero.jsx';
 import TechStack from './components/TechStack.jsx';
 import Projects from './components/Projects.jsx';
+import Resume from './components/Resume.jsx';
 import Contact from './components/Contact.jsx';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <nav className="flex items-center gap-5 text-sm text-slate-300">
             <a className="hover:text-white" href="#stack">Stack</a>
             <a className="hover:text-white" href="#projects">Projects</a>
+            <a className="hover:text-white" href="#resume">Resume</a>
             <a className="hover:text-white" href="#contact">Contact</a>
           </nav>
         </div>
@@ -24,6 +26,7 @@ function App() {
         <Hero />
         <TechStack />
         <Projects />
+        <Resume />
         <Contact />
       </main>
     </div>
